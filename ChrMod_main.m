@@ -1,9 +1,6 @@
 %---------------------------------------------------------------------%
-%Implementation ofhromatin 3D structure Bayesain modeling algorithm with 
-%energy prior and EM-like parameter estimation. Attached to 'Inferential 
-%modeling of 3D genome organization' on Nucleic Acids Research (under r-
-%evision). Author: Siyu Wang, Department of Automation, Tsinghua Univer-
-%sity. Date:18-11-2014
+%Inferential modeling of 3D chromatin structure. Author: Siyu Wang, De-
+%partment of Automation, Tsinghua University. Date:18-11-2014
 %---------------------------------------------------------------------%
 
 function ChrMod_main(ChrNo,n)
