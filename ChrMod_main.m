@@ -80,7 +80,7 @@ OverallLikelihood(k)=lnL_overall(weight,Ensemble,ChrIF,EstLen,omega,Dim);
 
 %--------------------------------------------
 if k==loop  %End of modeling, save result
-    name=ChrNo*10000+dmean;
+    name=ChrNo*10000+n;
     save(num2str(name));
     %vairable 'Ensemble' is the 3D structure we want
 %--------------------------------------------
