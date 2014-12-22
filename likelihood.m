@@ -64,7 +64,7 @@ L1=E/k3;
 
 L2=w*DataViolence;
 
-L3=s*sqrt(1/(2*w));
+L3=s*log(sqrt(1/(2*w)));
 
 %logarithm of total likelihood
 lnL=-L1-L2-L3;
