@@ -42,7 +42,7 @@ If you encounter any problem, please do not hesitate to contact us.
 
 CITATION
 Siyu Wang, Jinbo Xu and Jianyang Zeng*. Inferential modeling of 3D chromatin stru-
-cture.
+cture. Nucleic acids research, 2015: gkv100.
 
 ------------------------------------------------------------------------------------
 Comments and bug-reports are higly appreciated.
