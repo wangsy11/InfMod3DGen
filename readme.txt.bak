@@ -35,6 +35,7 @@ some.
 The python script visualization.py convenient could be used to conduct a visuali-
 zation to the output results. The output file can be converted into pdb format.
 
+
 NOTES
 This software was developed and tested on MATLAB R2012b and Windows7 operating sy-
 stems. We have also tested it on linux servers as well.
