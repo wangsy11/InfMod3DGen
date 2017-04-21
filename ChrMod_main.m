@@ -90,7 +90,7 @@ else
     %Grid search for alpha 
     lnL_al=GS_alpha(ChrIF,s,weight,Ensemble,EstLen,omega,Dim,dmean);
     a=find(lnL_al==max(lnL_al));
-    alpha=0.05*a+0.05;%value of alpha updated
+    alpha=0.05*mean(a)+0.05;%value of alpha updated
     AlphaRec(k)=alpha;
     
     %Expected 3D distance update
