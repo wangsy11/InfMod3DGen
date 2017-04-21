@@ -60,7 +60,7 @@ weight=zeros(n,1);
   for i=1:n
     t_struc=zeros(Dim,3);
     t_struc(:,:)=Ensemble(i,:,:);
-    weight(i)=exp(likelihood(t_struc,ChrIF,EstLen,omega)/10000);%amplify so that won't be zero
+    weight(i)=exp(likelihood(t_struc,ChrIF,EstLen,omega)/1e20);%amplify so that won't be zero
   end    
 
 %Nomarlization of weights
@@ -89,8 +89,8 @@ else
     %M step
     %Grid search for alpha 
     lnL_al=GS_alpha(ChrIF,s,weight,Ensemble,EstLen,omega,Dim,dmean);
-    a=find(lnL_al==max(lnL_al));
-    alpha=0.05*mean(a)+0.05;%value of alpha updated
+    alpha=find(lnL_al==max(lnL_al));
+    alpha=0.05*mean(alpha)+0.05;%value of alpha updated
     AlphaRec(k)=alpha;
     
     %Expected 3D distance update
