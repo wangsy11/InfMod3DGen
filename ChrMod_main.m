@@ -99,7 +99,7 @@ else
     %Grid search for omega 
     lnL_om=GS_omega(ChrIF,weight,Ensemble,EstLen,Dim);
     omega=find(lnL_om==max(lnL_om));
-    omega=0.25+0.25*omega;
+    omega=0.25+0.25*mean(omega);
     OmegaRec(k)=omega;
     
 end
